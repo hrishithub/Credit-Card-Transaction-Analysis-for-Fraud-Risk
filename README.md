@@ -39,6 +39,8 @@ Airflow DAG that:
 - Moves processed files to the archive folder to prevent reprocessing
 - test_transactions_processing.py: Unit tests for PySpark application logic, validating transformation and business logic using PyTest.
 
+#### requirements.txt
+A simple text file that lists all the Python packages (libraries, modules) and their specific versions needed for a project
 #### .github/workflows/ci-cd.yaml:
 GitHub Actions workflow that:
 - Runs tests using PyTest on dev branch

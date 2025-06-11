@@ -1,0 +1,4 @@
+pyspark==3.5.1
+pytest
+pytest-mock
+pytest-cov
