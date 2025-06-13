@@ -22,8 +22,8 @@ Banks and financial institutions need to detect fraudulent activity in real-time
 
 ## Dataset Used
 #### Input Data
-- cardholders.csv: cardholder_id, customer_name, reward_points, risk_score
-- transactions_YYYY_MM_DD.json: transaction_id, cardholder_id, merchant_id, merchant_name, merchant_category, transaction_amount, transaction_currency, transaction_timestamp, transaction_status, fraud_flag, device_type, merchant_location
+- `cardholders.csv`: cardholder_id, customer_name, reward_points, risk_score
+- `transactions_YYYY_MM_DD.json`: transaction_id, cardholder_id, merchant_id, merchant_name, merchant_category, transaction_amount, transaction_currency, transaction_timestamp, transaction_status, fraud_flag, device_type, merchant_location
 
 #### Output Table
 - processed_txn_tb: transaction_id, cardholder_id, merchant_id, merchant_name, merchant_category, transaction_amount, transaction_currency, transaction_timestamp, transaction_status, fraud_flag, device_type, merchant_location, transaction_category, is_high_risk, fraud_risk_level, updated_reward_points
